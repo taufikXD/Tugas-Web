@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bahasa C / C++ Paket 2</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/JQuery.js"></script>
+  <script>
+        $(document).ready(function(){
+          var Nilai=0; 
+        $("input[type='button']").click(function(){
+        	var radioValue = $("input[name='soal1']:checked").val();
+            if(radioValue==1){
+                Nilai = Nilai + 1;
+            }
+            else{
+              Nilai;
+            }
+            var radioValue = $("input[name='soal2']:checked").val();
+            if(radioValue==1){
+                Nilai = Nilai + 1;
+            }
+            else{
+              Nilai;
+            }
+            var radioValue = $("input[name='soal3']:checked").val();
+            if(radioValue==1){
+                Nilai = Nilai + 1;
+            }
+            else{
+              Nilai;
+            }
+            var radioValue = $("input[name='soal4']:checked").val();
+            if(radioValue==1){
+                Nilai = Nilai + 1;
+            }
+            else{
+              Nilai;
+            }
+            var radioValue = $("input[name='soal5']:checked").val();
+            if(radioValue==1){
+                Nilai = Nilai + 1;
+            }
+            else{
+              Nilai;
+            }
+            Nilai = Nilai * 20;
+            $('#tnilai').val(Nilai);
+        });
+        
+    });
+  </script>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Bahasa C / C++</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Soal Lainnya</a>
+          </li>
+          
+      </div>
+    </div>
+  </nav>
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+
+      <!-- Masthead Avatar Image -->
+      <img class="masthead-avatar mb-5" src="img/logo soal/c.png" alt="">
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+    </div>
+  </header>
+  <div class="container">
+    <p>1. Apakah fungsi dari tanda {} pada c++?</p>
+    <form>
+      <div class="radio">
+        <label><input type="radio" name="soal1" id="soal1" value="0">&emsp; Mengkompile program</label><br>
+        <label><input type="radio" name="soal1" id="soal1" value="0">&emsp; Mengeksekusi program</label><br>
+        <label><input type="radio" name="soal1" id="soal1" value="0">&emsp; Memberikan komentar</label><br>
+        <label><input type="radio" name="soal1" id="soal1" value="1">&emsp; Memblok program</label><br>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <p>2. Fungsi dari gets adalah?</p>
+    <form>
+      <div class="radio">
+        <label><input type="radio" name="soal2" value="0">&emsp; Menampilkan tulisan</label><br>
+        <label><input type="radio" name="soal2" value="0">&emsp; Menampilkan huruf besar</label><br>
+        <label><input type="radio" name="soal2" value="1">&emsp; Membaca spasi</label><br>
+        <label><input type="radio" name="soal2" value="0">&emsp; Membaca garis bawah</label><br>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <p>3. Tipe data berikut akan memberi nilai output, kecuali....</p>
+    <form>
+      <div class="radio">
+        <label><input type="radio" name="soal3" value="0">&emsp; Int</label><br>
+        <label><input type="radio" name="soal3" value="0">&emsp; Float</label><br>
+        <label><input type="radio" name="soal3" value="0">&emsp; Char</label><br>
+        <label><input type="radio" name="soal3" value="1">&emsp; Void</label><br>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <p>4. Dibawah ini yang merupakan tipe data dalam c++....</p>
+    <form>
+      <div class="radio">
+        <label><input type="radio" name="soal4" value="0">&emsp; Int,float,char,double,const</label><br>
+        <label><input type="radio" name="soal4" value="0">&emsp; Float,int,double,const</label><br>
+        <label><input type="radio" name="soal4" value="1">&emsp; Int,float,char,double</label><br>
+        <label><input type="radio" name="soal4" value="0">&emsp; Const,main,void,double</label><br>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <p>5. Penulisan kode program untuk identifier yang benar adalah...</p>
+    <form>
+      <div class="radio">
+        <label><input type="radio" name="soal5" value="0">&emsp; Long 4000;</label><br>
+        <label><input type="radio" name="soal5" value="0">&emsp; Float?2;</label><br>
+        <label><input type="radio" name="soal5" value="0">&emsp; Long break;</label><br>
+        <label><input type="radio" name="soal5" value="1">&emsp; Int a,b,c;</label><br>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <input type="button" class="btn btn-primary" value="Cek nilai"><br>
+    <input class="form-control" id="tnilai" name="tnilai" type="text">
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
+</html>
